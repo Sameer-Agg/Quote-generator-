@@ -66,8 +66,17 @@ h1{
     font-size: 1rem;
     border: 0.5px solid black;
     color: white;
+    transition: 0.2s all ease-in;
 }
 
+#btn:hover{
+    background-color: rgb(19, 60, 113) ;
+    transform: translateY(-8%);
+}
+#btn:active{
+    background-color: rgb(0, 110, 255) ;
+    transform: translateY(-2%);
+}
 
 @media screen and (max-width: 900px) {
    
